@@ -1,4 +1,4 @@
-# Quantum_Portfolio_Optimization
+# Quantum Portfolio Optimization
 
 ## About The Project
 Portfolio optimization is a classic challenge in finance: how to best allocate investments among various assets to maximize returns for a given level of risk. As the number of assets grows, this becomes an NP-hard problem, making it computationally intensive for classical computers to find the truly optimal solution.
