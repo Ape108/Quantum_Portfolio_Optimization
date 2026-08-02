@@ -31,4 +31,4 @@ The primary evaluation metrics were the Sharpe Ratio, expected annual return, an
 Future iterations of this repository will focus on implementing error mitigation techniques to reduce the hardware noise floor. Specifically, I plan to apply Zero-Noise Extrapolation (ZNE) to better estimate the expectation values of the QAOA Hamiltonian, aiming to move this quantum solution closer to a competitively stable financial tool.
 
 ## Detailed Report
-For a complete breakdown of the theoretical framework, mathematical derivations, and hardware debugging processes, please refer to the complete report: [`report.pdf`](./report.pdf)[cite: 1, 2].
+For a complete breakdown of the theoretical framework, mathematical derivations, and hardware debugging processes, please refer to the complete report: [`report.pdf`](./report.pdf).
