@@ -8,7 +8,7 @@ This project involves an end-to-end pipeline of financial data ingestion, Princi
 
 To process this on a quantum computer, the classical continuous mean-variance objective was mapped onto a Quadratic Unconstrained Binary Optimization (QUBO) model. The cost function was designed to balance expected returns against the covariance matrix (risk) using binary variables. The energy function formulated for the quantum processor is:
 
-$$E(x)=x^{T}Qx=\sum_{i}Q_{ii}x_{i}+\sum_{i<j}Q_{ij}x_{i}x_{j}$$
+$$E(x)=x^{T}Qx=\sum_{i}Q_{ii}x_{i}+\sum_{i \lt j}Q_{ij}x_{i}x_{j}$$
 
 Where $x\in\{0,1\}^{n}$ represents the binary decision vector for asset selection, and $Q\in\mathbb{R}^{n\times n}$ is the upper-triangular matrix encoding the risk-adjusted returns. 
 
